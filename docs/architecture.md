@@ -9,14 +9,14 @@
 - Separate instruction and data interfaces for the initial educational implementation.
 - Four pipeline-register boundaries: IF/ID, ID/EX, EX/MEM, MEM/WB.
 
-## Subsystem ownership (proposed)
+## Subsystem ownership (assigned)
 
 | Subsystem | RTL owner | Independent verification owner |
 | --- | --- | --- |
-| Instruction fetch + PC control | E1 | E4 |
-| Decode, immediate generator + register file | E2 | E1 |
-| Execute, branch, forwarding + hazards | E3 | E2 |
-| Load/store + writeback | E4 | E3 |
+| Instruction fetch + PC control | Adam | Suhaib |
+| Decode, immediate generator + register file | Zayd | Adam |
+| Execute, branch, forwarding + hazards | Omar | Zayd |
+| Load/store + writeback | Suhaib | Omar |
 
 ## Architecture decisions required
 
