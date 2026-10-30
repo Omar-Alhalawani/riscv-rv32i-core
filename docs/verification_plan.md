@@ -4,10 +4,10 @@
 
 | DUT owned by | Verification led by | Scope |
 | --- | --- | --- |
-| E1 | E4 | Fetch/PC, redirects, stalls, flush behavior |
-| E2 | E1 | Decode, immediates, register-file behavior |
-| E3 | E2 | ALU, branches, forwarding and hazards |
-| E4 | E3 | Load/store access sizing, alignment policy and writeback |
+| Adam | Suhaib | Fetch/PC, redirects, stalls, flush behavior |
+| Zayd | Adam | Decode, immediates, register-file behavior |
+| Omar | Zayd | ALU, branches, forwarding and hazards |
+| Suhaib | Omar | Load/store access sizing, alignment policy and writeback |
 
 ## Required evidence for each subsystem
 
