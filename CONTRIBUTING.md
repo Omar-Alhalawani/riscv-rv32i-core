@@ -11,7 +11,7 @@ This is a four-engineer RV32I processor design and **independent verification** 
 | [Omar](https://github.com/Omar-Alhalawani) | Execute + hazards | Memory + writeback (Suhaib RTL) |
 | [Suhaib](https://github.com/Suhaib-Ben-Zreiba) | Memory + writeback | Fetch / PC (Adam RTL) |
 
-The team has assigned these roles. Actual GitHub issue assignees may be added as teammates' usernames are confirmed.
+The team has assigned these roles.
 
 ## Working agreement
 
