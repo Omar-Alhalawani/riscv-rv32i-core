@@ -1,0 +1,24 @@
+# Generated simulation and synthesis outputs
+build/
+out/
+obj_dir/
+sim_build/
+work/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.vcd
+*.fst
+*.vpd
+*.wlf
+*.log
+*.jou
+*.rpt
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Keep source files and checked-in test programs tracked.
