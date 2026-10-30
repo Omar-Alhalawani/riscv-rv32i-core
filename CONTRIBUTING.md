@@ -6,12 +6,12 @@ This is a four-engineer RV32I processor design and **independent verification** 
 
 | Engineer | RTL ownership | Independent verification ownership |
 | --- | --- | --- |
-| E1 | Instruction fetch / PC | Decode + register file (E2 RTL) |
-| E2 | Decode + register file | Execute + hazards (E3 RTL) |
-| E3 | Execute + hazards | Memory + writeback (E4 RTL) |
-| E4 | Memory + writeback | Fetch / PC (E1 RTL) |
+| Adam | Instruction fetch / PC | Decode + register file (Zayd RTL) |
+| Zayd | Decode + register file | Execute + hazards (Omar RTL) |
+| Omar | Execute + hazards | Memory + writeback (Suhaib RTL) |
+| Suhaib | Memory + writeback | Fetch / PC (Adam RTL) |
 
-Roles are provisional until the team assigns members.
+The team has assigned these roles. Actual GitHub issue assignees may be added as teammates' usernames are confirmed.
 
 ## Working agreement
 
