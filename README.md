@@ -5,10 +5,10 @@ Design and independent verification of a five-stage pipelined RISC-V RV32I proce
 
 | Engineer | RTL design responsibility | Independent verification responsibility |
 | --- | --- | --- |
-| **Adam** | Instruction fetch (IF), PC and redirects | Zayd's instruction decode and register file |
-| **Zayd** | Instruction decode (ID), immediates and register file | Omar's execute, forwarding and hazards |
-| **Omar** | Execute (EX), ALU, branch logic and hazards | Suhaib's memory access and writeback |
-| **Suhaib** | Memory access (MEM), load/store and writeback (WB) | Adam's instruction fetch and PC control |
+| **[Adam](https://github.com/AdamAIbrahim)** | Instruction fetch (IF), PC and redirects | Zayd's instruction decode and register file |
+| **[Zayd](https://github.com/zaydb-dev)** | Instruction decode (ID), immediates and register file | Omar's execute, forwarding and hazards |
+| **[Omar](https://github.com/Omar-Alhalawani)** | Execute (EX), ALU, branch logic and hazards | Suhaib's memory access and writeback |
+| **[Suhaib](https://github.com/Suhaib-Ben-Zreiba)** | Memory access (MEM), load/store and writeback (WB) | Adam's instruction fetch and PC control |
 
 All four engineers share responsibility for architecture, integration, processor-level verification, synthesis and documentation.
 
